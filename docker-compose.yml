@@ -1,0 +1,8 @@
+services:
+    texture-extractor:
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        image: texture-extractor
+        ports: 
+            - 8687:80
